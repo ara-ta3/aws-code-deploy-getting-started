@@ -7,12 +7,12 @@ hooks:
   BeforeInstall:
     - location: install
       timeout: 300
-      runas: ec2-user
+      runas: root
     - location: start
       timeout: 300
-      runas: ec2-user
+      runas: root
   ApplicationStop:
     - location: stop
       timeout: 300
-      runas: ec2-user
+      runas: root
 
