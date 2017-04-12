@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+  - source: /Makefile
+    destination: /opt/app/
 hooks:
   BeforeInstall:
     - location: install
