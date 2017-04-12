@@ -1,2 +1,5 @@
 #!/bin/bash
+ls
+pwd
+find / -name "Makefile"
 make install
